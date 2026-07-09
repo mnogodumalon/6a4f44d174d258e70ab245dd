@@ -1,0 +1,25 @@
+{
+  "KundenverwaltungDialog.tsx": {
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Müller",
+    "strasse": "z. B. Hauptstraße",
+    "hausnummer": "z. B. 42",
+    "plz": "z. B. 10115",
+    "ort": "z. B. Berlin",
+    "email": "z. B. max@example.com"
+  },
+  "WartungsvertraegeDialog.tsx": {
+    "kunde": "Welcher Kunde?",
+    "anlagentyp": "z. B. Gasheizung, Ölheizung",
+    "anlagenstandort_strasse": "z. B. Heizraum",
+    "anlagenstandort_hausnummer": "z. B. EG",
+    "anlagenstandort_plz": "z. B. 10115",
+    "anlagenstandort_ort": "z. B. Berlin",
+    "wartungsintervall": "Wie oft warten?",
+    "letzte_wartung": "Wann war die Wartung?",
+    "naechste_wartung": "Wann ist die Wartung fällig?",
+    "wartungsstatus": "Wie ist der Status?",
+    "jahreswert": "z. B. 250,00",
+    "bemerkungen": "Besonderheiten, Anforderungen, Notizen..."
+  }
+}

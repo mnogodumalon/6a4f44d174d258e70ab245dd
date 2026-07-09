@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Kundenverwaltung": {
+      "placeholders_set": 7,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten-Entity (Kontaktinformationen, Adress-Details). Keine numerischen Felder, keine Datums-Abhängigkeiten, keine applookup-Ketten — nichts berechenbar. fieldOrder optimiert für logische Adressen-Sequenz (Name-Paar, Adress-Pair, Kontakt)."
+    },
+    "Wartungsverträge": {
+      "placeholders_set": 10,
+      "defaults_keys": ["naechste_wartung", "wartungsstatus"],
+      "computed_keys": [],
+      "reason": "Vertrag mit Kundenbezug, Anlagentyp und Wartungs-Tracking. Zwei date-Felder (letzte/nächste Wartung), lookup-Status, manueller Jahreswert. Keine automatische Preisberechnung nötig — jahreswert ist fixer Input (nicht aus Anzahl/Rate berechnet). Defaults: nächste_wartung=heute+365d (typisches Jahresintervall), wartungsstatus=geplant (Neuanlage startet hier). fieldOrder organisiert Kunde → Anlage-Details → Wartungs-Tracking → Kosten."
+    }
+  }
+}

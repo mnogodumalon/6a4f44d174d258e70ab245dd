@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "kundenverwaltung",
+      "app_id": "6a4f44bc95142d55b64a3861",
+      "path": "/rest/apps/6a4f44bc95142d55b64a3861/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "ort",
+        "telefon",
+        "email"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kundenverwaltung — Formular"
+    },
+    {
+      "entity": "wartungsvertraege",
+      "app_id": "6a4f44bebe3ad15592c09ac1",
+      "path": "/rest/apps/6a4f44bebe3ad15592c09ac1/records",
+      "allowed_fields": [
+        "anlagentyp",
+        "anlagenstandort_strasse",
+        "anlagenstandort_hausnummer",
+        "anlagenstandort_plz",
+        "anlagenstandort_ort",
+        "wartungsintervall",
+        "letzte_wartung",
+        "naechste_wartung",
+        "wartungsstatus",
+        "jahreswert",
+        "bemerkungen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Wartungsverträge — Formular"
+    }
+  ]
+}

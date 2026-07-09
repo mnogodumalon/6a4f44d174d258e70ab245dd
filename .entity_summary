@@ -1,0 +1,3 @@
+- Kundenverwaltung (kundenverwaltung): vorname[string/text], nachname[string/text], strasse[string/text], hausnummer[string/text], plz[string/text], ort[string/text], telefon[string/tel], email[string/email]
+- Wartungsverträge (wartungsvertraege): kunde[applookup/select], anlagentyp[lookup/select], anlagenstandort_strasse[string/text], anlagenstandort_hausnummer[string/text], anlagenstandort_plz[string/text], anlagenstandort_ort[string/text], wartungsintervall[lookup/radio], letzte_wartung[date/date], naechste_wartung[date/date], wartungsstatus[lookup/select], jahreswert[number], bemerkungen[string/textarea]
+  → kunde links to app_id 6a4f44bc95142d55b64a3861
